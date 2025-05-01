@@ -1,6 +1,7 @@
 {
     "dashboard": {
-      "welcomeMessage": "Hi Arthur, welcome! You have 12 open tasks.",
+            "name": "Arthur",
+      "tasks": "12",
       "navigation": ["Dashboard", "Accounts", "Brokers", "Submissions"],
       "workQueue": [
         { "name": "SM. Sam Masters" },

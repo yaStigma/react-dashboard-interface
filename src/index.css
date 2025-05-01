@@ -12,11 +12,15 @@
 @theme {
   --color-background: #121622;
   --color-cardDark: #0c0f17;
+  --color-cardLight: #1e2233;
   --color-cardBorder: #313b54;
   --color-cardBlue: #3b82f6;
   --color-textPrimary: #ffffff;
   --color-textSecondary: #c5cad3;
   --color-textMuted: #e5e7eb;
+  --color-gradientfrom: #1e40af;
+
+  --color-gradientto: rgba(30, 64, 175, 0.3);
 
   --font-font-family: "Inter", sans-serif;
   --text-headingLg: 36px;
