@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import Loader from "./Loader";
 
 export default function Header() {
   const [data, setData] = useState(null);
@@ -8,7 +9,7 @@ export default function Header() {
       .then((json) => setData(json));
   }, []);
 
-  if (!data) return <div>Loading...</div>;
+  if (!data) return <Loader />;
 
   return (
     <header className="w-full flex justify-center border-b-2 border-cardBorder">

@@ -2,7 +2,7 @@
     "dashboard": {
             "name": "Arthur",
       "tasks": "12",
-      "navigation": ["Dashboard", "Accounts", "Brokers", "Submissions"],
+      "navigation": ["Dashboard", "Accounts", "Brokers", "Submissions", "Organizations","Goals&Rules", "Admin"],
       "workQueue": [
         { "name": "SM. Sam Masters" },
         { "name": "AW. Annalise Willis" },
