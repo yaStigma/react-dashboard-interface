@@ -1,0 +1,113 @@
+{
+    "dashboard": {
+      "welcomeMessage": "Hi Arthur, welcome! You have 12 open tasks.",
+      "navigation": ["Dashboard", "Accounts", "Brokers", "Submissions"],
+      "workQueue": [
+        { "name": "SM. Sam Masters" },
+        { "name": "AW. Annalise Willis" },
+        { "name": "PD. Patrick Devenport" },
+        { "name": "AK. Ana Killian" },
+        { "name": "MK. Me" }
+      ],
+      "accounts": [
+        {
+          "name": "NAMEX Tech Solutions",
+          "type": "Cyber Liability",
+          "clientType": "Large Enterprise"
+        },
+        {
+          "name": "Alliance Healthcare Systems",
+          "type": "Medical Malpractice",
+          "clientType": "Mid-Market"
+        },
+        {
+          "name": "Maritime Logistics Corp",
+          "type": "Marine Cargo",
+          "clientType": "Shipping/Logistics"
+        },
+        {
+          "name": "Greenfield Energy Ltd",
+          "type": "Environmental",
+          "clientType": "Energy Sector"
+        },
+        {
+          "name": "NorthStar Financial Group",
+          "type": "D&O Liability"
+        },
+        {
+          "name": "QuantumTech Industries",
+          "type": "Product Liability"
+        }
+      ],
+      "referrals": [
+        {
+          "type": "Underwriter Referral",
+          "status": "New",
+          "created": "04/16/2025"
+        },
+        {
+          "type": "Underwriter Referral",
+          "status": "New",
+          "created": "04/20/2025"
+        },
+        {
+          "type": "Loss Control Request",
+          "status": "New",
+          "created": "04/16/2025"
+        },
+        {
+          "type": "Underwriter Referral",
+          "status": "Pending Review",
+          "created": "04/22/2025"
+        },
+        {
+          "type": "Email",
+          "status": "Completed",
+          "created": "04/28/2025"
+        },
+        {
+          "type": "Email",
+          "status": "Completed",
+          "created": "04/20/2025"
+        }
+      ]
+    },
+    "account": {
+      "name": "Maritime Logistics Corp",
+      "address": "425 Harbor Boulevard, Suite 300, Seattle, WA 98104",
+      "broker": "Marsh McLennan",
+      "underwriter": "Kate Johnson",
+      "performanceMetrics": {
+        "lossRatio": "25%",
+        "premiumGrowth": "12%",
+        "marineCargo": "71.4%",
+        "generalLiability": "20%",
+        "workersComp": "8.6%",
+        "revenue": "$123M",
+        "target": "$150M"
+      },
+      "policies": [
+        {
+          "name": "Marine Cargo",
+          "premium": "$625,000",
+          "effDate": "6/30/2026"
+        },
+        {
+          "name": "General Liability",
+          "premium": "$175,000",
+          "effDate": "6/30/2026"
+        },
+        {
+          "name": "Unknown Policy",
+          "premium": "$71",
+          "effDate": "--"
+        }
+      ],
+      "status": ["Submitted", "Review"],
+      "actions": [
+        "Review details link",
+        "View report",
+        "View claims"
+      ]
+    }
+  }
