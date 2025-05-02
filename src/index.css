@@ -9,6 +9,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 @theme {
   --color-background: #121622;
   --color-cardDark: #0c0f17;
@@ -24,6 +25,7 @@
   --color-statusNew: #3b82f6;
   --color-statusPending: #fdd261;
   --color-statusCompleted: #3bb979;
+  --color-statusFailed: #b93b3b;
   --color-gradientto: rgba(30, 64, 175, 0.3);
 
   --font-font-family: "Inter", sans-serif;
@@ -65,4 +67,16 @@
 .custom-scroll {
   scrollbar-color: #1e2233 #121622;
   scrollbar-width: thin;
+}
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #121622; /* Трек */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #1e2233; /* "Бігунок" */
+  border-radius: 4px;
 }

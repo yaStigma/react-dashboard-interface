@@ -100,7 +100,7 @@ export default function WorkQueueSection({ workQueue }) {
                     <button
                       type="button"
                       title="Options"
-                      className="w-6 h-6 flex items-center justify-center rounded-full border-[1.5px] border-current text-textPrimary hover:bg-cardDark hover:text-cardBlue transition-all cursor-pointer"
+                      className="w-6 h-6 flex items-center justify-center rounded-full border-[1.5px] border-current text-textPrimary hover:bg-cardBlue transition-all cursor-pointer"
                     >
                       <span className="flex flex-col items-center justify-center gap-[2px]">
                         <span className="w-[2px] h-[2px] bg-current rounded-full"></span>
