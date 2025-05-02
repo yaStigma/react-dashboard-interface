@@ -4,74 +4,48 @@
       "tasks": "12",
       "navigation": ["Dashboard", "Accounts", "Brokers", "Submissions", "Organizations","Goals&Rules", "Admin"],
       "workQueue": [
-        { "name": "SM. Sam Masters" },
-        { "name": "AW. Annalise Willis" },
-        { "name": "PD. Patrick Devenport" },
-        { "name": "AK. Ana Killian" },
-        { "name": "MK. Me" }
-      ],
-      "accounts": [
-        {
-          "name": "NAMEX Tech Solutions",
-          "type": "Cyber Liability",
-          "clientType": "Large Enterprise"
-        },
-        {
-          "name": "Alliance Healthcare Systems",
-          "type": "Medical Malpractice",
-          "clientType": "Mid-Market"
-        },
-        {
-          "name": "Maritime Logistics Corp",
-          "type": "Marine Cargo",
-          "clientType": "Shipping/Logistics"
-        },
-        {
-          "name": "Greenfield Energy Ltd",
-          "type": "Environmental",
-          "clientType": "Energy Sector"
-        },
-        {
-          "name": "NorthStar Financial Group",
-          "type": "D&O Liability"
-        },
-        {
-          "name": "QuantumTech Industries",
-          "type": "Product Liability"
-        }
-      ],
-      "referrals": [
-        {
+        { "originator": "Sam Masters",
+      "client": "NAMEX Tech Solutions",
+          "line": "Cyber Liability",
           "type": "Underwriter Referral",
           "status": "New",
-          "created": "04/16/2025"
-        },
-        {
+          "created": "04/16/2025" } , 
+          
+          { "originator": "Annalise Willis",
+          "client": "Maritime Logistics Corp",
+          "line": "Marine Cargo",
           "type": "Underwriter Referral",
           "status": "New",
-          "created": "04/20/2025"
-        },
-        {
+          "created": "04/20/2025" },
+
+        { "originator": "Patrick Devenport",
+      "client": "Greenfield Energy Ltd",
+          "line": "Environmental",
           "type": "Loss Control Request",
           "status": "New",
-          "created": "04/16/2025"
-        },
-        {
+          "created": "04/16/2025" 
+            },
+        { "originator": "Ana Killian", 
+        "client": "NorthStar Financial Group",
+          "line": "D&O Liability",
           "type": "Underwriter Referral",
           "status": "Pending Review",
-          "created": "04/22/2025"
-        },
-        {
-          "type": "Email",
-          "status": "Completed",
-          "created": "04/28/2025"
-        },
-        {
-          "type": "Email",
-          "status": "Completed",
-          "created": "04/20/2025"
-        }
+          "created": "04/22/2025" },
+          { "originator": "Ana Killian", 
+          "client": "Alliance Healthcare Systems",
+            "line": "Medical Malpractice",
+            "type": "Email",
+            "status": "Completed",
+            "created": "04/28/2025" },
+          { "originator": "Me K", 
+          "client": "QuantumTech Industries",
+            "line": "Product Liability",
+            "type": "Email",
+            "status": "Completed",
+            "created": "04/20/2025"  }
       ]
+      
+     
     },
     "account": {
       "name": "Maritime Logistics Corp",

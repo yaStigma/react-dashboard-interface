@@ -30,13 +30,13 @@ export default function Navigation() {
 
   return (
     <div className="w-full flex justify-center ">
-      <nav className="flex items-center w-[1656px] flex-row gap-2 py-5">
+      <nav className="flex items-center w-[1656px] flex-row gap-[9px] py-5">
         {data.dashboard.navigation.map((item) => (
           <NavLink
             key={item}
             to={`/${item.toLowerCase().replace(/\s+/g, "-")}`}
             className={({ isActive }) =>
-              `group flex items-center gap-3 p-3.5 rounded-full border border-cardBorder transition-all cursor-pointer ${
+              `group flex items-center gap-3 p-3 text-labelSm rounded-full border border-cardBorder transition-all cursor-pointer ${
                 isActive
                   ? "bg-cardBlue text-textPrimary"
                   : "bg-cardDark text-textSecondary hover:bg-cardBlue hover:text-textPrimary"

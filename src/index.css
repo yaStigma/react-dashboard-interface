@@ -19,7 +19,11 @@
   --color-textSecondary: #c5cad3;
   --color-textMuted: #e5e7eb;
   --color-gradientfrom: #1e40af;
-
+  --color-tableAccent: #252a3d;
+  --color-tableTextHead: #94a3b8;
+  --color-statusNew: #3b82f6;
+  --color-statusPending: #fdd261;
+  --color-statusCompleted: #3bb979;
   --color-gradientto: rgba(30, 64, 175, 0.3);
 
   --font-font-family: "Inter", sans-serif;
@@ -28,6 +32,7 @@
   --text-subheading: 20px;
   --text-label: 16px;
   --text-labelSm: 12px;
+  --text-labelLg: 18px;
   --text-body: 14px;
   --text-kpi: 32px;
   --font-weight-headingLg: 700;
@@ -42,4 +47,22 @@
   --leading-label: calc(24px / 16px);
   --leading-body: calc(20px / 14px);
   --leading-kpi: calc(36px / 32px);
+}
+.custom-scroll::-webkit-scrollbar {
+  width: 8px;
+}
+
+.custom-scroll::-webkit-scrollbar-track {
+  background: #121622; /* Трек */
+}
+
+.custom-scroll::-webkit-scrollbar-thumb {
+  background-color: #1e2233; /* "Бігунок" */
+  border-radius: 4px;
+}
+
+/* Firefox */
+.custom-scroll {
+  scrollbar-color: #1e2233 #121622;
+  scrollbar-width: thin;
 }
