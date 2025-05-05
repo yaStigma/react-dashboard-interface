@@ -1,7 +1,10 @@
 export default function AccountPage() {
   return (
     <div>
-      <h1>Account Page</h1>
+              <div>
+           <p> Dashboard // Accounts // </p><span>Maritime Logistics Corp</span>
+        </div>
+        
     </div>
   );
 }
