@@ -28,7 +28,7 @@ export default function WorkQueueSection({ workQueue }) {
               : "bg-cardDark text-textSecondary hover:bg-cardBlue hover:text-textPrimary"
           }`}
         >
-          Assigned to me ()
+          Assigned to me (12)
         </button>
         <button
           type="button"
@@ -39,7 +39,7 @@ export default function WorkQueueSection({ workQueue }) {
               : "bg-cardDark text-textSecondary hover:bg-cardBlue hover:text-textPrimary"
           }`}
         >
-          Pending Review ()
+          Pending Review (8)
         </button>
         <button
           type="button"
@@ -50,12 +50,12 @@ export default function WorkQueueSection({ workQueue }) {
               : "bg-cardDark text-textSecondary hover:bg-cardBlue hover:text-textPrimary"
           }`}
         >
-          Referrals ()
+          Referrals (3)
         </button>
       </div>
       <div className="w-full overflow-y-auto max-h-[400px] snap-y custom-scroll">
         <table className="w-full text-left border-none">
-          <thead className="sticky top-0 bg-tableAccent text-tableTextHead text-[9px] z-10">
+          <thead className="sticky top-0 bg-tableHeader text-tableTextHead text-[9px] z-10">
             <tr>
               <th className="py-3 px-5 text-[9px] font-label">ORIGINATOR</th>
               <th className="py-3  text-[9px] font-label">CLIENT/LINE</th>

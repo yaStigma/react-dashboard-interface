@@ -4,6 +4,7 @@ import WorkQueueSection from "../components/WorkQueueSection";
 import PortfolioGoalsSection from "../components/PortfolioGoalsSection";
 import QuickActionsSection from "../components/QuickActionsSection";
 import MarketIntelligenceSection from "../components/MarketIntelligenceSection";
+import MyAccountsSection from "../components/MyAccountsSection";
 
 export default function DashboardPage() {
   const [data, setData] = useState(null);
@@ -14,16 +15,19 @@ export default function DashboardPage() {
   }, []);
 
   if (!data) return <Loader />;
-  const { workQueue } = data.dashboard;
+  const { workQueue, myAccounts } = data.dashboard;
 
   return (
-    <div className="flex gap-[17px] items-center w-[1656px] mx-auto">
-      <WorkQueueSection workQueue={workQueue} />
-      <PortfolioGoalsSection />
-      <div className="flex flex-col gap-[14px] ">
-        <QuickActionsSection />
-        <MarketIntelligenceSection />
+    <div className="flex flex-col gap-[17px] items-center w-[1656px] mx-auto">
+      <div className="flex gap-4.5 items-center w-full mx-auto">
+        <WorkQueueSection workQueue={workQueue} />
+        <PortfolioGoalsSection />
+        <div className="flex flex-col gap-[14px] ">
+          <QuickActionsSection />
+          <MarketIntelligenceSection />
+        </div>
       </div>
+      <MyAccountsSection myAccounts={myAccounts} />
     </div>
   );
 }

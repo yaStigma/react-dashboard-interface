@@ -20,12 +20,16 @@
   --color-textSecondary: #c5cad3;
   --color-textMuted: #e5e7eb;
   --color-gradientfrom: #1e40af;
-  --color-tableAccent: #252a3d;
+
+  --color-tableHeader: #252a3d;
+  --color-tableAccent: #232838;
+
   --color-tableTextHead: #94a3b8;
   --color-statusNew: #3b82f6;
   --color-statusPending: #fdd261;
   --color-statusCompleted: #3bb979;
   --color-statusFailed: #b93b3b;
+
   --color-gradientto: rgba(30, 64, 175, 0.3);
 
   --font-font-family: "Inter", sans-serif;
