@@ -1,21 +1,25 @@
 import { useState, useEffect } from "react";
 import Loader from "./Loader";
 import { NavLink } from "react-router-dom";
-import { HomeIcon, CircleStackIcon } from "@heroicons/react/24/outline";
-import { FiUsers } from "react-icons/fi";
-import { GrDocumentTransfer } from "react-icons/gr";
-import { GoOrganization } from "react-icons/go";
-import { LuGoal } from "react-icons/lu";
-import { IoKeyOutline } from "react-icons/io5";
+
+import {
+  House,
+  Database,
+  UsersRound,
+  FileSymlink,
+  Building2,
+  Goal,
+  KeyRound,
+} from "lucide-react";
 
 const iconMap = {
-  Dashboard: <HomeIcon className="size-5" />,
-  Accounts: <CircleStackIcon className="size-5" />,
-  Brokers: <FiUsers className="size-5" />,
-  Submissions: <GrDocumentTransfer className="size-5" />,
-  Organizations: <GoOrganization className="size-5" />,
-  "Goals&Rules": <LuGoal className="size-5" />,
-  Admin: <IoKeyOutline className="size-5" />,
+  Dashboard: <House className="size-5" />,
+  Accounts: <Database className="size-5" />,
+  Brokers: <UsersRound className="size-5" />,
+  Submissions: <FileSymlink className="size-5" />,
+  Organizations: <Building2 className="size-5" />,
+  "Goals&Rules": <Goal className="size-5" />,
+  Admin: <KeyRound className="size-5" />,
 };
 
 export default function Navigation() {

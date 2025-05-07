@@ -134,9 +134,9 @@
       "lossRatio": "25%",
       "targetPercent": "42%",
       "premiumGrowth": "12.4%",
-      "marineCargo": "71.4%",
-      "generalLiability": "20%",
-      "workersComp": "8.6%",
+      "marineCargo": 71.4,
+      "generalLiability": 20,
+      "workersComp": 8.6,
       "revenue": "$123M",
       "target": "$150M"
     },
