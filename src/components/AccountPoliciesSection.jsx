@@ -19,7 +19,7 @@ export default function AccountPoliciesSection({ policies }) {
     return <div>No data available</div>;
   }
   return (
-    <section className="w-full h-full flex flex-col items-start mt-[81px] ">
+    <section className="w-full  flex flex-col items-start mt-[81px] ">
       <h2 className="text-heading font-heading leading-heading text-textMuted mb-5 ">
         Policies
       </h2>

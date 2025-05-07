@@ -4,7 +4,7 @@ export default function AccountPerformansSection({ performanceMetrics }) {
   }
 
   return (
-    <section className="w-full h-[710px] flex flex-col items-start mt-[38px]">
+    <section className="w-full  flex flex-col items-start mt-[38px]">
       <h2 className="text-heading font-heading leading-heading text-textMuted mb-7 ">
         Performans Metrics
       </h2>

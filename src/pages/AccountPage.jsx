@@ -26,7 +26,7 @@ export default function AccountPage() {
       <AccountNameSection account={data.account} />
       <AccountPerformansSection performanceMetrics={performanceMetrics} />
       <AccountPoliciesSection policies={policies} />
-      <div>
+      <div className="mt-[43px] flex gap-[17px]">
         <AccountStatusSection />
         <AccountComplianceSection />
       </div>
