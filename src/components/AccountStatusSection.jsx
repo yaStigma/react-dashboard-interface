@@ -24,13 +24,13 @@ export default function AccountStatusSection() {
                   {step.completed ? (
                     <CircleCheck className="size-[35px] text-[#3BB979]" />
                   ) : (
-                    <CircleCheck className="size-[35px] text-[#8A8B98]" />
+                    <CircleCheck className="size-[35px] text-[#8A8B98] " />
                   )}
                 </div>
 
                 {index < steps.length - 1 && (
                   <div
-                    className={`h-px w-28 border-t border-dotted mx-2 ${
+                    className={`h-px w-28 border-t border-dashed mx-2 ${
                       steps[index + 1].completed
                         ? "border-[#3BB979]"
                         : "border-[#8A8B98]"

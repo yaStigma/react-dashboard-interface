@@ -174,21 +174,21 @@
       "topCompetitor": 88,
       "historicalTrend": ["Jan", "Feb", "Mar", "Apr", "Now"],
       "increasingWinnability": [
-        { "factor": "Brokers relationship", "value": "+28%" },
-        { "factor": "Loss history", "value": "+22%" },
-        { "factor": "Industry growth", "value": "+16%" },
-        { "factor": "Multiline opportunity", "value": "+11%" }
+        { "factor": "Brokers relationship", "value": "+28%", "persent":100 },
+        { "factor": "Loss history", "value": "+22%", "persent":70 },
+        { "factor": "Industry growth", "value": "+16%", "persent":60 },
+        { "factor": "Multiline opportunity", "value": "+11%", "persent":40 }
       ],
       "decreasingWinnability": [
-        { "factor": "Premium pricing", "value": "-24%" },
-        { "factor": "Total exposure", "value": "-18%" },
-        { "factor": "Loss ratio trend", "value": "-13%" },
-        { "factor": "Market competition", "value": "-5%" }
+        { "factor": "Premium pricing", "value": "-24%", "persent":100 },
+        { "factor": "Total exposure", "value": "-18%", "persent":70 },
+        { "factor": "Loss ratio trend", "value": "-13%", "persent":60 },
+        { "factor": "Market competition", "value": "-5%" , "persent":40}
       ],
       "recommendations": [
         {
           "title": "Offer 5% premium discount in exchange for 3-year commitment",
-          "description": "Historical win rate increases 24.5% with multi-year commitments. Current pricing is 12% above market average. This approach would strengthen retention while maintaining adequate profitability."
+          "description": "Historical win rate increases 24% with multi-year commitments. Current pricing is 12% above market average. This approach would strengthen retention while maintaining adequate profitability."
         },
         {
           "title": "Propose risk control services for cargo handling procedures",

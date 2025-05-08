@@ -12,8 +12,6 @@ export default function PortfolioGoalsSection() {
         PORTFOLIO LOSS RATIO TARGET
       </p>
       <div className="relative w-full max-w-[500px] h-[80px] mx-auto mt-8">
-        {/* Верхний указатель */}
-
         <div
           className="absolute -top-8 "
           style={{ left: `${topPercent}%`, transform: "translateX(-50%)" }}
@@ -24,14 +22,12 @@ export default function PortfolioGoalsSection() {
           </div>
         </div>
 
-        {/* Шкала с чёткими цветами */}
         <div className="w-[238px] h-[25px] flex rounded-full overflow-hidden ">
           <div className="w-[91px] bg-[#3BB979]" />
           <div className="w-[57px] bg-[#FDD261]" />
           <div className="w-[90px] bg-[#CC0101]" />
         </div>
 
-        {/* Нижний указатель */}
         <div
           className="absolute bottom-7 "
           style={{ left: `${bottomPercent}%`, transform: "translateX(-50%)" }}
@@ -47,8 +43,6 @@ export default function PortfolioGoalsSection() {
       </div>
       <p className="text-[12px]  text-tableTextHead">RENEWAL RETENTION</p>
       <div className="relative w-full max-w-[500px] h-[80px] mx-auto mt-8">
-        {/* Верхний указатель */}
-
         <div
           className="absolute -top-5 "
           style={{ left: `${bottomPercent2}%`, transform: "translateX(-50%)" }}
@@ -60,7 +54,6 @@ export default function PortfolioGoalsSection() {
           </div>
         </div>
 
-        {/* Шкала с чёткими цветами */}
         <div className="w-[238px] h-[25px] flex rounded-full overflow-hidden ">
           <div className="w-[42px] bg-[#CC0101]" />
           <div className="w-[80px] bg-[#FDD261]" />
@@ -68,7 +61,6 @@ export default function PortfolioGoalsSection() {
           <div className="w-[84px] bg-[#FDD261]" />
         </div>
 
-        {/* Нижний указатель */}
         <div
           className="absolute bottom-7 "
           style={{ left: `${bottomPercent2}%`, transform: "translateX(-50%)" }}
