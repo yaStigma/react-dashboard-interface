@@ -4,11 +4,11 @@ export default function AccountPerformansSection({ performanceMetrics }) {
   }
 
   return (
-    <section className="w-full  flex flex-col items-start mt-[38px]">
+    <section className="w-full h-full flex flex-col items-start mt-[38px]">
       <h2 className="text-heading font-heading leading-heading text-textMuted mb-7 ">
         Performans Metrics
       </h2>
-      <div className="flex gap-[17px]">
+      <div className="grid grid-cols-2 gap-4 lg:flex-row lg:flex lg:gap-4 ">
         <div className="w-[377px] h-[239px] flex flex-col items-start px-[25px] pt-[40px] pb-[20px]  rounded-[20px] border  border-cardBorder bg-cardLight">
           <div className="flex gap-[17px] mb-5">
             <p className="text-subheading  text-textMuted ">Winnability</p>{" "}

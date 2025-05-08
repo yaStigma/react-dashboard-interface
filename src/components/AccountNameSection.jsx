@@ -1,39 +1,41 @@
 import { CircleAlert } from "lucide-react";
 
 export default function AccountNameSection({ account }) {
-  // if (!workQueue || workQueue.length === 0) {
-  //   return <div>No data available</div>;
-  // }
+  if (!account || account.length === 0) {
+    return <div>No data available</div>;
+  }
 
   return (
-    <section className="w-full h-[150px] flex flex-row items-end mx-auto">
-      <img
-        className="mr-5"
-        src="/iconMaritimeLogisticsCorp.svg"
-        alt="icon Company"
-      />
-      <div>
-        <h2 className="text-kpi font-kpi leading-kpi text-textPrimary mb-3 ">
-          {account.name}
-        </h2>
-        <div className="mr-17.5">
-          <ul className="flex flex-row text-body text-textPrimary ">
-            <li className="w-[250px] pr-2.5 border-r-1 border-cardBorder">
-              {account.address}
-            </li>
-            <li className="px-2.5 border-r-1 w-[188px] border-cardBorder">
-              <p className="text-tableTextHead ">EXISTING ACCOUNT</p>
-              <p>{account.existingAccount}</p>
-            </li>
-            <li className="px-2.5 border-r-1 w-[188px] border-cardBorder">
-              <p className="text-tableTextHead">BROKER</p>
-              <p>{account.broker}</p>
-            </li>
-            <li className="px-2.5 ">
-              <p className="text-tableTextHead">UNDERWRITER</p>
-              <p>{account.underwriter}</p>
-            </li>
-          </ul>
+    <section className="w-full h-full flex flex-col-reverse lg:flex-row  mx-auto">
+      <div className="flex flex-row items-end mt-5 ">
+        <img
+          className="mr-5"
+          src="/iconMaritimeLogisticsCorp.svg"
+          alt="icon Company"
+        />
+        <div>
+          <h2 className="text-kpi font-kpi leading-kpi text-textPrimary mb-3 ">
+            {account.name}
+          </h2>
+          <div className="mr-17.5">
+            <ul className="flex flex-row text-body text-textPrimary ">
+              <li className="w-[250px] pr-2.5 border-r-1 border-cardBorder">
+                {account.address}
+              </li>
+              <li className="px-2.5 border-r-1 w-[188px] border-cardBorder">
+                <p className="text-tableTextHead ">EXISTING ACCOUNT</p>
+                <p>{account.existingAccount}</p>
+              </li>
+              <li className="px-2.5 border-r-1 w-[188px] border-cardBorder">
+                <p className="text-tableTextHead">BROKER</p>
+                <p>{account.broker}</p>
+              </li>
+              <li className="px-2.5 ">
+                <p className="text-tableTextHead">UNDERWRITER</p>
+                <p>{account.underwriter}</p>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
       <div className="w-[710px] h-[149px] flex flex-col align-between p-[21px] rounded-[20px] border  border-statusPending bg-cardLight">

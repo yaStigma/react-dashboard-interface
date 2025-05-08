@@ -24,7 +24,7 @@ export default function AccountPoliciesSection({ policies }) {
         Policies
       </h2>
 
-      <div className="w-full h-[174px] overflow-y-hidden flex flex-row gap-[17px] items-start py-[19.5px] pl-[35px]   rounded-[20px] border  border-cardBorder bg-cardLight">
+      <div className=" grid grid-cols-2 gap-4 lg:flex-row lg:flex lg:gap-4    overflow-y-hidden  items-start py-[19.5px] px-[35px]   rounded-[20px] border  border-cardBorder bg-cardLight">
         {policies.map((policy, index) => (
           <div
             key={index}

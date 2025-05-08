@@ -19,12 +19,14 @@ export default function DashboardPage() {
 
   return (
     <div className="flex flex-col gap-[17px] items-center w-[1656px] mx-auto">
-      <div className="flex gap-4.5 items-center w-full mx-auto">
+      <div className="flex flex-col xl:flex-row gap-4.5 items-center w-full mx-auto">
         <WorkQueueSection workQueue={workQueue} />
-        <PortfolioGoalsSection />
-        <div className="flex flex-col gap-[14px] ">
-          <QuickActionsSection />
-          <MarketIntelligenceSection />
+        <div className="flex gap-[17px]">
+          <PortfolioGoalsSection />
+          <div className="flex flex-col gap-[14px] ">
+            <QuickActionsSection />
+            <MarketIntelligenceSection />
+          </div>
         </div>
       </div>
       <MyAccountsSection myAccounts={myAccounts} />

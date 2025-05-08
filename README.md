@@ -29,29 +29,23 @@ This project is a responsive and interactive dashboard application built using *
 - **JavaScript (ES6+)**
 - **Mock JSON Data**
 - **Vite**
-<!-- -  **React Icons / SVG-to-React conversion** -->
 
 ---
-
-## 📂 Project Structure
-
-<!-- src/
-├── components/
-│ ├── Layout/ # Header, Sidebar
-│ └── Dashboard/ # Cards, Charts, etc.
-├── data/ # JSON mock data
-├── pages/ # Dashboard page
-├── App.jsx
-└── index.js -->
 
 ## 🧠 AI/Tools Used
 
 This project was assisted by:
 
-- 🛠️ **GPT** (for converting SVG structure into layout and components)
-<!-- - 📐 **SVG Inspector** (for structure & color analysis) -->
+- ChatGPT (OpenAI) – used for generating and editing code, texts, and the README file.
+
+- GitHub Copilot – the built-in version in Visual Studio Code assisted with code autocompletion.
+
+- Figma AI – used the built-in recognizer to analyze UI elements and design layouts.
 
 ## 📸 Screenshots
+
+https://www.dropbox.com/scl/fi/leo5gy66rckijly140kiv/DASHBOARD-1.svg?rlkey=afg8bn2gtl5pa7fo0u1vufjzx&st=p9ny79j2&dl=0
+https://www.dropbox.com/scl/fi/94m7p601z23g1urc8pfmb/ACCOUNT-GENERAL.svg?rlkey=7s4uj15yq1ifd3b31b1z9nour&st=se0io00h&dl=0
 
 ## 📦 Installation
 
@@ -64,8 +58,6 @@ This project was assisted by:
 4. Start the server:
    npm run dev
    The app will be accessible at http://localhost:3000.
-
-## 🌐 Deployment
 
 ## 🙋‍♀️ Author
 

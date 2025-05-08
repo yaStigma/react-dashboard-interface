@@ -174,16 +174,16 @@
       "topCompetitor": 88,
       "historicalTrend": ["Jan", "Feb", "Mar", "Apr", "Now"],
       "increasingWinnability": [
-        { "factor": "Brokers relationship", "value": "+28%", "persent":100 },
-        { "factor": "Loss history", "value": "+22%", "persent":70 },
-        { "factor": "Industry growth", "value": "+16%", "persent":60 },
-        { "factor": "Multiline opportunity", "value": "+11%", "persent":40 }
+        { "factor": "Brokers relationship", "value": "+28%", "persent": 100 },
+        { "factor": "Loss history", "value": "+22%", "persent": 70 },
+        { "factor": "Industry growth", "value": "+16%", "persent": 60 },
+        { "factor": "Multiline opportunity", "value": "+11%", "persent": 40 }
       ],
       "decreasingWinnability": [
-        { "factor": "Premium pricing", "value": "-24%", "persent":100 },
-        { "factor": "Total exposure", "value": "-18%", "persent":70 },
-        { "factor": "Loss ratio trend", "value": "-13%", "persent":60 },
-        { "factor": "Market competition", "value": "-5%" , "persent":40}
+        { "factor": "Premium pricing", "value": "-24%", "persent": 100 },
+        { "factor": "Total exposure", "value": "-18%", "persent": 70 },
+        { "factor": "Loss ratio trend", "value": "-13%", "persent": 60 },
+        { "factor": "Market competition", "value": "-5%", "persent": 40 }
       ],
       "recommendations": [
         {
@@ -202,63 +202,53 @@
         "title": "Policy Renewal - Auto Insurance 5/15/25",
         "sender": "Michael Roberts",
         "date": "Apr 5",
-        "message":
-          "Hello Arthur, I'm reaching out regarding the upcoming auto policy renewal for Real Estate Group, LLC. The current policy expires on 6/30/2024. Would you like to review coverage options before proceeding with the renewal? I’ve attached the current policy details and premium breakdown for your reference.",
+        "message": "Hello Arthur, I'm reaching out regarding the upcoming auto policy renewal for Real Estate Group, LLC. The current policy expires on 6/30/2024. Would you like to review coverage options before proceeding with the renewal? I’ve attached the current policy details and premium breakdown for your reference.",
         "attachments": 3,
-        "reply":true
+        "reply": true
       },
       {
         "status": "NEW",
         "title": "New Quote Request - Workers Comp Insurance",
         "sender": "Sarah Chen",
         "date": "Apr 5",
-        "message":
-          "Hi Arthur, Real Estate Group has expressed interest in adding workers compensation coverage to their insurance portfolio. I’ve completed the initial risk assessment based...",
-        "attachments": 3 ,
-              "reply":true
-
-
+        "message": "Hi Arthur, Real Estate Group has expressed interest in adding workers compensation coverage to their insurance portfolio. I’ve completed the initial risk assessment based...",
+        "attachments": 3,
+        "reply": true
       },
       {
         "status": "Responded",
         "title": "Fwd: New Submission - BPM Real Estate - EFF 4/1/24",
         "sender": "Joshua Dunmire",
         "date": "Mar 25",
-        "message":
-          "Arthur, attached please find our submission for the above mentioned applicant. We have...",
+        "message": "Arthur, attached please find our submission for the above mentioned applicant. We have...",
         "attachments": 0,
-        "reply":false
-
+        "reply": false
       },
-      
-      
+
       {
         "status": null,
         "title": "New Business: BPM Real Estate Group, LLC",
         "sender": "Isabel Keller",
         "date": "Feb 28",
-        "message":
-          "Hello Arthur, I am pleased to present you with a submission on this client’s upcoming...",
+        "message": "Hello Arthur, I am pleased to present you with a submission on this client’s upcoming...",
         "attachments": 6,
-        "reply":true
-
-
+        "reply": true
       }
     ],
-    "policiesCard" : [
+    "policiesCard": [
       {
         "name": "Marine Cargo",
         "code": 17030212,
         "effDate": "6/30/2026",
         "expDate": "6/30/2027",
         "status": "Active",
-        "expiringTech": 587.500,
-        "expiringPremium": 605.000,
-        "renewalToTech": 610.000,
-        "renewalToTechPremium": 620.000,
-        "renewalPremium": 625.000,
-       "rateChange": "3.3%",
-        "lossRatio":22
+        "expiringTech": 587.5,
+        "expiringPremium": 605.0,
+        "renewalToTech": 610.0,
+        "renewalToTechPremium": 620.0,
+        "renewalPremium": 625.0,
+        "rateChange": "3.3%",
+        "lossRatio": 22
       },
       {
         "name": "General Liability",
@@ -267,11 +257,11 @@
         "effDate": "6/30/2026",
         "expDate": "6/30/2027",
         "status": "Active",
-        "expiringTech": 160.000,
-        "expiringPremium": 165.000,
-        "renewalToTech": 170.000,
-        "renewalToTechPremium": 172.500,
-        "renewalPremium": 175.000,
+        "expiringTech": 160.0,
+        "expiringPremium": 165.0,
+        "renewalToTech": 170.0,
+        "renewalToTechPremium": 172.5,
+        "renewalPremium": 175.0,
         "rateChange": "6.1%",
         "lossRatio": 55
       },
@@ -280,13 +270,13 @@
         "code": 9182371,
 
         "effDate": "Pending",
-        "expDate":"Pending",
+        "expDate": "Pending",
         "status": "Pending",
         "expiringTech": 0,
         "expiringPremium": 0,
-        "renewalToTech": 73.500,
-        "renewalToTechPremium": 75.000,
-        "renewalPremium": 755.000,
+        "renewalToTech": 73.5,
+        "renewalToTechPremium": 75.0,
+        "renewalPremium": 755.0,
         "rateChange": "N/A",
         "lossRatio": "N/A"
       },
@@ -297,15 +287,14 @@
         "effDate": "13/03/2026",
         "expDate": "13/03/2027",
         "status": "Active",
-        "expiringTech": 245.000,
-        "expiringPremium": 250.000,
-        "renewalToTech": 267.500,
-        "renewalToTechPremium": 270.000,
-        "renewalPremium": 275.000,
+        "expiringTech": 245.0,
+        "expiringPremium": 250.0,
+        "renewalToTech": 267.5,
+        "renewalToTechPremium": 270.0,
+        "renewalPremium": 275.0,
         "rateChange": "10.0%",
-        "lossRatio":78
+        "lossRatio": 78
       }
     ]
   }
-
 }

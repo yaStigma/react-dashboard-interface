@@ -16,9 +16,9 @@ export default function AccountDetailsSection({ accountDetails }) {
         Account Details
       </h2>
 
-      <div className="w-full h-[1053px] flex flex-row  items-start py-[24px] px-[19px]   rounded-[20px] border  border-cardBorder bg-cardLight">
-        <div className="w-[368px] h-full border-r-2 border-dashed border-cardBorder">
-          <div className=" flex flex-col gap-2 items-start">
+      <div className="max-w-full h-full flex flex-col lg:flex-row  items-start py-[24px] px-[19px]   rounded-[20px] border  border-cardBorder bg-cardLight">
+        <div className="w-full h-full border-b-2 lg:border-r-2  lg:border-b-0 border-dashed border-cardBorder">
+          <div className=" flex flex-row lg:flex-col gap-2 items-start">
             <div className="w-[346px] h-[301px] flex flex-col items-start  px-8 py-6 bg-tableHeader rounded-[20px] ">
               <div className="flex w-full items-end justify-between mb-4">
                 <h2 className="text-subheading bloc text-textMuted uppercase">
@@ -69,7 +69,7 @@ export default function AccountDetailsSection({ accountDetails }) {
         <div className="flex flex-col gap-6 px-[30px]">
           <h3 className="text-textMuted text-[50px]">Winnability</h3>
           <div className=" flex flex-row gap-2 items-start">
-            <div className="w-[359px] h-[151px] flex flex-col items-start justify-between px-6 py-6 bg-tableHeader rounded-[20px] ">
+            <div className="max-w-[359px] lg:w-[359px] h-[151px] flex flex-col items-start justify-between px-6 py-6 bg-tableHeader rounded-[20px] ">
               <p className="text-subheading  text-textMuted">Overall Score</p>
               <div className="flex items-center">
                 <p className="text-textMuted  text-[50px] mr-2.5">
@@ -84,7 +84,7 @@ export default function AccountDetailsSection({ accountDetails }) {
                 </div>
               </div>
             </div>
-            <div className="w-[359px] h-[151px] flex flex-col items-start justify-between px-6 py-6 bg-tableHeader rounded-[20px] ">
+            <div className="max-w-[359px] lg:w-[359px] h-[151px] flex flex-col items-start justify-between px-6 py-6 bg-tableHeader rounded-[20px] ">
               <p className="text-subheading  text-textMuted mb-2">
                 Historical trend
               </p>
@@ -96,7 +96,7 @@ export default function AccountDetailsSection({ accountDetails }) {
                 ))}
               </div>
             </div>
-            <div className="w-[450px] h-[151px] flex flex-col items-start justify-between px-6 py-6 bg-tableHeader rounded-[20px] ">
+            <div className="max-w-[450px] lg:w-[450px] h-[151px] flex flex-col items-start justify-between px-6 py-6 bg-tableHeader rounded-[20px] ">
               <p className="text-subheading  text-textMuted mb-2">Position</p>
               <div className="flex gap-[14px]">
                 <div>
@@ -140,7 +140,7 @@ export default function AccountDetailsSection({ accountDetails }) {
             </div>
           </div>
           <div className=" flex flex-row gap-2 items-start">
-            <div className="w-[587px] h-[384px] flex flex-col items-start  px-6 py-8 bg-tableHeader rounded-[20px] ">
+            <div className="max-w-[587px] lg:w-[587px] h-[384px] flex flex-col items-start  px-6 py-8 bg-tableHeader rounded-[20px] ">
               <div className="flex items-center mb-8">
                 <CircleArrowDown className="rotate-180 mr-3 size-6.5 text-statusCompleted" />
                 <h2 className="text-subheading  text-textMuted">
@@ -178,7 +178,7 @@ export default function AccountDetailsSection({ accountDetails }) {
                 ))}
               </div>
             </div>
-            <div className="w-[587px] h-[384px] flex flex-col items-start  px-6 py-8 bg-tableHeader rounded-[20px] ">
+            <div className="max-w-[587px] lg:w-[587px] h-[384px] flex flex-col items-start  px-6 py-8 bg-tableHeader rounded-[20px] ">
               <div className="flex items-center mb-8">
                 <CircleArrowDown className=" mr-3 size-6.5 text-statusPending" />
                 <h2 className="text-subheading  text-textMuted">
@@ -218,7 +218,7 @@ export default function AccountDetailsSection({ accountDetails }) {
             </div>
           </div>
 
-          <div className="w-full h-[302px] flex flex-col items-start justify-between px-6 py-8 bg-tableHeader rounded-[20px] ">
+          <div className="max-m-full flex flex-col items-start justify-between px-6 py-8 bg-tableHeader rounded-[20px] ">
             <div className="flex flex-row ">
               <Rocket className="text-[#3BB979] size-[26px] mr-2.5" />{" "}
               <p className="text-[#3BB979] text-subheading items-end">
@@ -226,8 +226,8 @@ export default function AccountDetailsSection({ accountDetails }) {
               </p>
             </div>
             {accountDetails.recommendations.map((item, index) => (
-              <div key={index} className="flex flex-row ">
-                <div className="w-[850px] mr-20">
+              <div key={index} className="flex flex-col lg:flex-row ">
+                <div className="max-w-[850px] lg:mr-20">
                   <p className="text-textMuted text-label mb-2.5">
                     {item.title}
                   </p>
@@ -237,7 +237,7 @@ export default function AccountDetailsSection({ accountDetails }) {
                 </div>
                 <button
                   type="button"
-                  className="w-[177px] h-[58px] items-center rounded-full border-none bg-[#3BB979] hover:bg-green-500"
+                  className="w-[177px] h-[58px] my-5  lg:my-0 items-center rounded-full border-none bg-[#3BB979] hover:bg-green-500"
                 >
                   Apply
                 </button>

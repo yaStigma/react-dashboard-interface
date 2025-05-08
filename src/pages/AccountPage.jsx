@@ -35,7 +35,7 @@ export default function AccountPage() {
       <AccountNameSection account={data.account} />
       <AccountPerformansSection performanceMetrics={performanceMetrics} />
       <AccountPoliciesSection policies={policies} />
-      <div className="mt-[43px] flex gap-[17px]">
+      <div className="mt-[43px] flex gap-[17px] flex-col lg:flex-row">
         <AccountStatusSection />
         <AccountComplianceSection />
       </div>

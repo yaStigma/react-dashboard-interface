@@ -14,7 +14,7 @@ export default function AccountCommunicationSection({ communication }) {
         Communication
       </h2>
 
-      <div className="w-full h-[726px] flex flex-col  items-start py-[24px] px-[19px]   rounded-[20px] border  border-cardBorder bg-cardLight">
+      <div className=" max-w-full h-full flex flex-col  items-start py-[24px] px-[19px]   rounded-[20px] border  border-cardBorder bg-cardLight">
         <div className="flex flex-row mb-[15px] gap-[11px]">
           <input
             type="text"
@@ -47,7 +47,7 @@ export default function AccountCommunicationSection({ communication }) {
             </button>
           </div>
         </div>
-        <div className="p-4 columns-2  w-full">
+        <div className="p-4 columns-1 lg:columns-2  w-full">
           {communication.map((item, index) => (
             <div
               key={index}
