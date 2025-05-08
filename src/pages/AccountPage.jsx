@@ -5,6 +5,7 @@ import AccountPoliciesSection from "../components/AccountPoliciesSection";
 import AccountStatusSection from "../components/AccountStatusSection";
 import { useState, useEffect } from "react";
 import Loader from "../components/Loader";
+import AccountPoliciesTableSection from "../components/AccountPoliciesTableSection";
 
 export default function AccountPage() {
   const [data, setData] = useState(null);
@@ -15,7 +16,7 @@ export default function AccountPage() {
   }, []);
 
   if (!data) return <Loader />;
-  const { performanceMetrics, policies } = data.account;
+  const { performanceMetrics, policies, policiesCard } = data.account;
 
   return (
     <div className="flex flex-col gap-[17px]  w-[1656px] mx-auto">
@@ -30,6 +31,7 @@ export default function AccountPage() {
         <AccountStatusSection />
         <AccountComplianceSection />
       </div>
+      <AccountPoliciesTableSection policiesCard={policiesCard} />
     </div>
   );
 }

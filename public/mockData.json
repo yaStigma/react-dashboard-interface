@@ -237,56 +237,63 @@
     ],
     "policiesCard" : [
       {
-        "line": "Marine Cargo",
+        "name": "Marine Cargo",
+        "code": 17030212,
         "effDate": "6/30/2026",
         "expDate": "6/30/2027",
         "status": "Active",
-        "expiringTech": "$687,500",
-        "expiringPremium": "$665,000",
-        "renewalToTech": "$610,000",
-        "renewalToTechPremium": "$620,000",
-        "renewalPremium": "$625,000",
-       " rateChange": "3.3%",
-        "lossRatio": "23%"
+        "expiringTech": 587.500,
+        "expiringPremium": 605.000,
+        "renewalToTech": 610.000,
+        "renewalToTechPremium": 620.000,
+        "renewalPremium": 625.000,
+       "rateChange": "3.3%",
+        "lossRatio":22
       },
       {
-        "line": "General Liability",
+        "name": "General Liability",
+        "code": 4631092,
+
         "effDate": "6/30/2026",
         "expDate": "6/30/2027",
         "status": "Active",
-        "expiringTech": "$160,000",
-        "expiringPremium": "$165,000",
-        "renewalToTech": "$170,000",
-        "renewalToTechPremium": "$172,500",
-        "renewalPremium": "$175,000",
+        "expiringTech": 160.000,
+        "expiringPremium": 165.000,
+        "renewalToTech": 170.000,
+        "renewalToTechPremium": 172.500,
+        "renewalPremium": 175.000,
         "rateChange": "6.1%",
-        "lossRatio": "55%"
+        "lossRatio": 55
       },
       {
-        "line": "Workers Comp",
-        "effDate": null,
-        "expDate": null,
+        "name": "Workers Comp",
+        "code": 9182371,
+
+        "effDate": "Pending",
+        "expDate":"Pending",
         "status": "Pending",
-        "expiringTech": null,
-        "expiringPremium": null,
-        "renewalToTech": "$73,500",
-        "renewalToTechPremium": "$80,000",
-        "renewalPremium": "$85,000",
+        "expiringTech": 0,
+        "expiringPremium": 0,
+        "renewalToTech": 73.500,
+        "renewalToTechPremium": 75.000,
+        "renewalPremium": 755.000,
         "rateChange": "N/A",
         "lossRatio": "N/A"
       },
       {
-        "line": "Umbrella",
+        "name": "Umbrella",
+        "code": 5274936,
+
         "effDate": "13/03/2026",
         "expDate": "13/03/2027",
         "status": "Active",
-        "expiringTech": "$245,000",
-        "expiringPremium": "$250,000",
-        "renewalToTech": "$270,000",
-        "renewalToTechPremium": "$275,000",
-        "renewalPremium": "$280,000",
+        "expiringTech": 245.000,
+        "expiringPremium": 250.000,
+        "renewalToTech": 267.500,
+        "renewalToTechPremium": 270.000,
+        "renewalPremium": 275.000,
         "rateChange": "10.0%",
-        "lossRatio": "78%"
+        "lossRatio":78
       }
     ]
   }
