@@ -6,6 +6,7 @@ import AccountStatusSection from "../components/AccountStatusSection";
 import { useState, useEffect } from "react";
 import Loader from "../components/Loader";
 import AccountPoliciesTableSection from "../components/AccountPoliciesTableSection";
+import AccountCommunicationSection from "../components/AccountCommunicationSection";
 
 export default function AccountPage() {
   const [data, setData] = useState(null);
@@ -16,7 +17,8 @@ export default function AccountPage() {
   }, []);
 
   if (!data) return <Loader />;
-  const { performanceMetrics, policies, policiesCard } = data.account;
+  const { performanceMetrics, policies, communication, policiesCard } =
+    data.account;
 
   return (
     <div className="flex flex-col gap-[17px]  w-[1656px] mx-auto">
@@ -31,6 +33,7 @@ export default function AccountPage() {
         <AccountStatusSection />
         <AccountComplianceSection />
       </div>
+      <AccountCommunicationSection communication={communication} />
       <AccountPoliciesTableSection policiesCard={policiesCard} />
     </div>
   );

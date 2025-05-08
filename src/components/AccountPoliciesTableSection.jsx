@@ -41,9 +41,9 @@ const getBgColorByPercentage = (value) => {
 
 export default function AccountPoliciesTableSection({ policiesCard }) {
   const [activeButton, setActiveButton] = useState("");
-  // if (!myAccounts || myAccounts.length === 0) {
-  //   return <div>No data available</div>;
-  // }
+  if (!policiesCard || policiesCard.length === 0) {
+    return <div>No data available</div>;
+  }
 
   return (
     <section className="w-full  flex flex-col items-start mt-[37px] ">
