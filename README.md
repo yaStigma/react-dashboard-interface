@@ -4,12 +4,6 @@ This project is a responsive and interactive dashboard application built using *
 
 ---
 
-## 🚀 Demo
-
-🔗 [Live Demo](https://your-demo-link.com)
-
----
-
 ## 🧩 Features
 
 - ✨ Clean dark UI based on SVG mockup
